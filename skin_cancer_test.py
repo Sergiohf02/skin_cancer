@@ -13,6 +13,7 @@ device='cuda'
 #sse
 
 
+#ss
 #subnormal tapia
 if __name__ == "__main__":
 
@@ -31,8 +32,8 @@ if __name__ == "__main__":
         transforms.Normalize([0.485,0.456,0.406],[0.229,0.224,0.225])
         ])
 
-    train_dir = "/home/224F3573sergio/skin_Cancer/train"
-    test_dir = "/home/224F4573sergio/skin_Cancer/test"
+    train_dir = "/home/224F3573sergio/skin_cancer/train"
+    test_dir = "/home/224F4573sergio/skin_cancer/test"
 
     train_dataset = datasets.ImageFolder(train_dir, transforms_train)
     test_dataset = datasets.ImageFolder(test_dir, transforms_test)
