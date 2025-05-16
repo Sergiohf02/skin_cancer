@@ -14,6 +14,7 @@ device='cuda'
 
 
 #ss
+#ss
 #subnormal tapia
 if __name__ == "__main__":
 
@@ -33,7 +34,7 @@ if __name__ == "__main__":
         ])
 
     train_dir = "/home/224F3573sergio/skin_cancer/train"
-    test_dir = "/home/224F4573sergio/skin_cancer/test"
+    test_dir = "/home/224F3573sergio/skin_cancer/test"
 
     train_dataset = datasets.ImageFolder(train_dir, transforms_train)
     test_dataset = datasets.ImageFolder(test_dir, transforms_test)
